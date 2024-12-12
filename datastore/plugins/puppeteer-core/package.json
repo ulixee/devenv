@@ -1,0 +1,24 @@
+{
+  "name": "@ulixee/datastore-plugins-puppeteer-core",
+  "version": "2.0.0-alpha.31",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/ulixee.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@ulixee/datastore": "2.0.0-alpha.31",
+    "@ulixee/datastore-core": "2.0.0-alpha.31",
+    "@ulixee/datastore-plugins-puppeteer": "2.0.0-alpha.31"
+  }
+}

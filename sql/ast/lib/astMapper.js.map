@@ -1,0 +1,1 @@
+{"version":3,"file":"astMapper.js","sourceRoot":"","sources":["../../../../sql/ast/lib/astMapper.ts"],"names":[],"mappings":";;AA8BA,8BAIC;AAjCD,yDAAkD;AAalD;;;;;;;;;;;;;;;GAeG;AACH,SAAgB,SAAS,CAAC,eAA8B;IACtD,MAAM,QAAQ,GAAG,IAAI,0BAAgB,EAAE,CAAC;IACxC,QAAQ,CAAC,OAAO,GAAG,eAAe,CAAC,QAAQ,CAAC,CAAC;IAC7C,OAAO,QAAQ,CAAC;AAClB,CAAC"}

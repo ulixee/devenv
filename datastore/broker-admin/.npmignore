@@ -1,0 +1,10 @@
+.env
+.eslint*
+.gitignore
+package.*.json
+tsconfig*
+*.config.js
+*.config.d.ts
+*.config.js.map
+src
+!dist

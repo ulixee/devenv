@@ -1,0 +1,24 @@
+{
+  "name": "@ulixee/cli",
+  "version": "2.0.0-alpha.31",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/ulixee.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@ulixee/commons": "2.0.0-alpha.31",
+    "commander": "^9.5.0"
+  },
+  "bin": "./bin/cli.js"
+}

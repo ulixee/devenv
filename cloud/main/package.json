@@ -1,0 +1,54 @@
+{
+  "name": "@ulixee/cloud",
+  "version": "2.0.0-alpha.31",
+  "description": "The Ulixee Cloud is an out-of-the box tool to host and deploy Ulixee Datastores and Hero scripts. It allows you to easily create a paid API service.",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./paths": {
+      "types": "./paths.d.ts",
+      "require": "./paths.js"
+    },
+    "./cli": {
+      "types": "./cli/index.d.ts",
+      "require": "./cli/index.js"
+    }
+  },
+  "dependencies": {
+    "@ulixee/commons": "2.0.0-alpha.31",
+    "@ulixee/datastore-core": "2.0.0-alpha.31",
+    "@ulixee/datastore-plugins-hero-core": "2.0.0-alpha.31",
+    "@ulixee/desktop-core": "2.0.0-alpha.31",
+    "@ulixee/hero-core": "2.0.0-alpha.31",
+    "@ulixee/hero-interfaces": "2.0.0-alpha.31",
+    "@ulixee/net": "2.0.0-alpha.31",
+    "@ulixee/platform-specification": "2.0.0-alpha.31",
+    "@ulixee/platform-utils": "2.0.0-alpha.31",
+    "commander": "^9.5.0",
+    "ws": "^8.18.0"
+  },
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js start",
+    "start:alive": "node -r @ulixee/desktop-core/register bin/cli.js start",
+    "preversion": "node ../../build/cloud/main/scripts/gatherEnvSettings.js"
+  }
+}

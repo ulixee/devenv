@@ -1,0 +1,12 @@
+.eslintrc.js
+*.config.js
+jest.setup.js
+tsconfig*.json
+hero
+website
+stream
+sql/ast/syntax/compiled
+datastore/docpage
+!playgrounds/hero
+build
+build-dist

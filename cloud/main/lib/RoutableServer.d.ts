@@ -1,0 +1,30 @@
+import WebSocket = require('ws');
+import * as Http from 'http';
+import { AddressInfo, ListenOptions } from 'net';
+export type IHttpHandleFn = (req: Http.IncomingMessage, res: Http.ServerResponse, params: string[]) => Promise<boolean | void> | void;
+export type IWsHandleFn = (ws: WebSocket, request: Http.IncomingMessage, params: string[]) => void;
+export default class RoutableServer {
+    private isReadyToServe;
+    readonly wsServer: WebSocket.Server;
+    get host(): Promise<string>;
+    get port(): Promise<number>;
+    get hasConnections(): boolean;
+    get connections(): number;
+    get version(): string;
+    private publicHostname;
+    private isClosing;
+    private sockets;
+    private listeningPromise;
+    private readonly httpServer;
+    private readonly httpRoutes;
+    private readonly wsRoutes;
+    constructor(isReadyToServe: Promise<void>, publicHost?: string, addRouters?: boolean);
+    listen(options?: ListenOptions): Promise<AddressInfo>;
+    addHttpRoute(route: RegExp | string, method: string, handleFn: IHttpHandleFn): void;
+    addWsRoute(route: RegExp | string, handleFn: IWsHandleFn): void;
+    close(): Promise<void>;
+    private handleHttpRequest;
+    private handleHttpConnection;
+    private handleWsConnection;
+    private onHttpError;
+}

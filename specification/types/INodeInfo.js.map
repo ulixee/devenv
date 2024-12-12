@@ -1,0 +1,1 @@
+{"version":3,"file":"INodeInfo.js","sourceRoot":"","sources":["../../../specification/types/INodeInfo.ts"],"names":[],"mappings":";;;AAAA,6BAAwB;AACxB,gEAA0E;AAE7D,QAAA,cAAc,GAAG,OAAC,CAAC,MAAM,CAAC;IACrC,MAAM,EAAE,0BAAkB,CAAC,QAAQ,CAAC,+BAA+B,CAAC;IACpE,OAAO,EAAE,OAAC,CAAC,MAAM,EAAE,CAAC,QAAQ,CAAC,kDAAkD,CAAC;CACjF,CAAC,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"output.js","sourceRoot":"","sources":["../../../../../datastore/core/test/datastores/output.ts"],"names":[],"mappings":";;AAAA,iDAAyD;AAEzD,kBAAe,IAAI,mBAAS,CAAC;IAC3B,EAAE,EAAE,QAAQ;IACZ,UAAU,EAAE;QACV,MAAM,EAAE,IAAI,qBAAS,CAAC,GAAG,CAAC,EAAE;YAC1B,GAAG,CAAC,MAAM,CAAC,IAAI,CAAC,EAAE,OAAO,EAAE,IAAI,EAAE,CAAC,CAAC;QACrC,CAAC,CAAC;KACH;CACF,CAAC,CAAC"}

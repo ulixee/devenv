@@ -1,0 +1,26 @@
+{
+  "name": "@ulixee/schema",
+  "version": "2.0.0-alpha.31",
+  "description": "A basic schema utility with static constraints to support secure type checking.",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}

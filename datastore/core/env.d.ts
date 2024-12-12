@@ -1,0 +1,23 @@
+import ILocalchainConfig from '@ulixee/datastore/interfaces/ILocalchainConfig';
+declare const _default: {
+    serverEnvironment: string;
+    datastoresDir: string;
+    datastoresTmpDir: string;
+    queryHeroSessionsDir: string;
+    replayRegistryHost: string;
+    argonPaymentProcessorHost: string;
+    upstreamPaymentsServiceHost: string;
+    datastoreLookupHost: string;
+    enableSqliteWalMode: string;
+    cloudAdminIdentities: string[];
+    datastoresMustHaveOwnAdminIdentity: boolean;
+    localchainConfig: ILocalchainConfig;
+    argonMainchainUrl: string;
+    enableGlobalConfigs: boolean;
+    statsTrackerHost: string;
+    datastoreRegistryHost: string;
+    storageEngineHost: string;
+};
+export default _default;
+export declare function parseAddress(address: string, type: string): string;
+export declare function parseIdentities(identities: string, type: string): string[];

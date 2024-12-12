@@ -1,0 +1,1 @@
+{"version":3,"file":".eslintrc.js","sourceRoot":"","sources":["../../specification/.eslintrc.js"],"names":[],"mappings":"AAAA,MAAM,IAAI,GAAG,OAAO,CAAC,MAAM,CAAC,CAAC;AAE7B,MAAM,CAAC,OAAO,GAAG;IACf,aAAa,EAAE;QACb,OAAO,EAAE,IAAI,CAAC,IAAI,CAAC,SAAS,EAAE,eAAe,CAAC;KAC/C;IACD,OAAO,EAAE,iBAAiB;CAC3B,CAAC"}

@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "node bin/cli.js start"
+  },
+  "devDependencies": {}
+}

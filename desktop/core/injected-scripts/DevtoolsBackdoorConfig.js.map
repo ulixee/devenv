@@ -1,0 +1,1 @@
+{"version":3,"file":"DevtoolsBackdoorConfig.js","sourceRoot":"","sources":["../../../../desktop/core/injected-scripts/DevtoolsBackdoorConfig.ts"],"names":[],"mappings":";;;AACA,gEAAgE;AACnD,QAAA,yBAAyB,GAAG,2BAA2B,CAAC;AAExD,QAAA,SAAS,GAAG;IACvB,kBAAkB,EAAE,oBAAoB;IACxC,wBAAwB,EAAE,0BAA0B;IACpD,aAAa,EAAE,eAAe;CAC/B,CAAC"}

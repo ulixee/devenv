@@ -1,0 +1,1 @@
+{"version":3,"file":"CloudApiHandler.js","sourceRoot":"","sources":["../../../../cloud/main/lib/CloudApiHandler.ts"],"names":[],"mappings":";;AAAA,oGAA6F;AAC7F,8EAA6F;AAG7F,MAAqB,eAEnB,SAAQ,8BAAmF;IAC3F,YACE,OAAgB,EAChB,IAMC;QAED,KAAK,CAAC,OAAO,EAAE,2BAAe,EAAE,IAAI,CAAC,CAAC;QACtC,IAAI,CAAC,UAAU,GAAG,IAAI,CAAC,OAAO,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;IAC5C,CAAC;CACF;AAhBD,kCAgBC"}

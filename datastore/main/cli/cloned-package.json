@@ -1,0 +1,21 @@
+{
+  "name": "datastore",
+  "version": "0.0.1",
+  "private": true,
+  "main": "datastore.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "deploy": "@ulixee/datastore deploy ./datastore.ts",
+    "credits:create": "@ulixee/datastore credits create"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@ulixee/datastore": "2.0.0-alpha.18"
+  },
+  "devDependencies": {
+    "@ulixee/datastore-packager": "2.0.0-alpha.18",
+    "typescript": "~5.3.3"
+  }
+}

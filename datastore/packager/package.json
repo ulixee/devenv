@@ -1,0 +1,45 @@
+{
+  "name": "@ulixee/datastore-packager",
+  "version": "2.0.0-alpha.31",
+  "description": "Packager for creating Datastore bundles that can be consumed by a Ulixee Cloud",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@ulixee/cloud": "2.0.0-alpha.31",
+    "@ulixee/commons": "2.0.0-alpha.31",
+    "@ulixee/datastore": "2.0.0-alpha.31",
+    "@ulixee/datastore-core": "2.0.0-alpha.31",
+    "@ulixee/datastore-docpage": "2.0.0-alpha.31",
+    "@ulixee/net": "2.0.0-alpha.31",
+    "@ulixee/platform-specification": "2.0.0-alpha.31",
+    "@ulixee/platform-utils": "2.0.0-alpha.31",
+    "@ulixee/schema": "2.0.0-alpha.31",
+    "@ulixee/sql-engine": "2.0.0-alpha.31",
+    "better-sqlite3": "^11.1.2",
+    "rollup": "^4.22.0",
+    "tar": "^7.4.3",
+    "ws": "^8.18.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../datastore/plugins/puppeteer-core/index.ts"],"names":[],"mappings":";;AAEA,MAAM,GAAG,GAAG,OAAO,CAAC,kDAAkD,CAAC,CAAC;AAExE,MAAqB,yBAAyB;IAA9C;QACS,SAAI,GAAG,GAAG,CAAC,IAAI,CAAC;QAChB,YAAO,GAAG,GAAG,CAAC,OAAO,CAAC;QACtB,2BAAsB,GAAG,CAAC,WAAW,EAAE,WAAW,CAAC,CAAC;IAC7D,CAAC;CAAA;AAJD,4CAIC"}

@@ -1,0 +1,24 @@
+{
+  "name": "@ulixee/datastore-docpage",
+  "version": "2.0.0-alpha.31",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "nohoist": [],
+  "resolutions": {}
+}

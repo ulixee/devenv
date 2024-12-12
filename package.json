@@ -1,0 +1,91 @@
+{
+  "name": "@ulixee/platform",
+  "description": "The internal developer environment that we use for building and running the Ulixee platform",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@lerna-lite/version": "^3.9.1",
+    "@lerna-lite/publish": "^3.9.1"
+  },
+  "private": true,
+  "scripts": {
+    "dist": "lerna publish from-package"
+  },
+  "#linkMainchain": {
+    "packages": [
+      "../mainchain/localchain",
+      "../mainchain/client/nodejs"
+    ]
+  },
+  "workspaces": {
+    "packages": [
+      "desktop/*",
+      "datastore/*",
+      "datastore/plugins/*",
+      "cloud/*",
+      "sql/*",
+      "client/*",
+      "cli",
+      "schema",
+      "specification",
+      "utils"
+    ],
+    "nohoist": [
+      "**/babel-loader",
+      "**/electron-webpack",
+      "**/@electron",
+      "**/@electron/**",
+      "**/electron",
+      "**electron**",
+      "**/electron-*",
+      "**/electron-log",
+      "**/electron-builder",
+      "**/electron-webpack/**",
+      "**/electron-updater",
+      "**/electron-clipboard-ex",
+      "**/@ulixee/repo-tools",
+      "@ulixee/repo-tools",
+      "**/vite",
+      "**/vite-plugin-prismjs",
+      "**/vite/**",
+      "**/vite-svg-loader",
+      "**/vite-plugin-prismjs",
+      "**/vite-*",
+      "**/@vitejs/**",
+      "**/@vue/**",
+      "**/@vue/**/**",
+      "**/vue",
+      "**/vue-loader",
+      "**/vue-class-component",
+      "**/vue-router",
+      "**/vue-template-compiler",
+      "**/vue-class-component",
+      "**/@types/web",
+      "**/autoprefixer",
+      "**/postcss",
+      "**/tailwindcss",
+      "**/@nodelib",
+      "**/@nodelib/**"
+    ]
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "resolutions": {
+    "tough-cookie": "^5.0.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}

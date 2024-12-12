@@ -1,0 +1,72 @@
+{
+  "name": "@ulixee/datastore",
+  "version": "2.0.0-alpha.31",
+  "homepage": "https://ulixee.org",
+  "repository": "git@github.com:ulixee/platform.git",
+  "bugs": {
+    "url": "https://github.com/ulixee/platform/issues"
+  },
+  "license": "MIT",
+  "author": "Ulixee",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./*": "./*.js",
+    "./package.json": "./package.json",
+    "./lib/*": {
+      "types": "./lib/*.d.ts",
+      "require": "./lib/*.js"
+    },
+    "./cli/*": "./cli/*.js",
+    "./storage-engines/*": {
+      "types": "./storage-engines/*.d.ts",
+      "require": "./storage-engines/*.js"
+    },
+    "./payments/*": {
+      "types": "./payments/*.d.ts",
+      "require": "./payments/*.js"
+    },
+    "./connections/*": {
+      "types": "./connections/*.d.ts",
+      "require": "./connections/*.js"
+    },
+    "./types/*": {
+      "types": "./types/*.d.ts",
+      "require": "./types/*.js"
+    },
+    "./interfaces/*": {
+      "types": "./interfaces/*.d.ts",
+      "require": "./interfaces/*.js"
+    }
+  },
+  "dependencies": {
+    "@argonprotocol/localchain": "0.0.20",
+    "@argonprotocol/mainchain": "0.0.20",
+    "@ulixee/commons": "2.0.0-alpha.31",
+    "@ulixee/net": "2.0.0-alpha.31",
+    "@ulixee/platform-specification": "2.0.0-alpha.31",
+    "@ulixee/platform-utils": "2.0.0-alpha.31",
+    "@ulixee/schema": "2.0.0-alpha.31",
+    "@ulixee/sql-ast": "2.0.0-alpha.31",
+    "@ulixee/sql-engine": "2.0.0-alpha.31",
+    "better-sqlite3": "^11.1.2",
+    "commander": "^9.5.0",
+    "moment": "^2.29.4",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "@ulixee/datastore-packager": "2.0.0-alpha.31"
+  },
+  "bin": "./bin/cli.js"
+}
